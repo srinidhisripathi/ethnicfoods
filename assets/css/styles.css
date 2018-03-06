@@ -3,9 +3,30 @@ body {
 }
 
 .container {
-  width: 900px;
-  padding-left: 300px;
-  padding-right: 300px;
+  margin: 0 auto;
+}
+
+   .container.narrow {
+      width: 900px;
+   }
+
+   .container.full {
+      padding: 0 50px;
+   }
+
+h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .header {
@@ -39,41 +60,32 @@ body {
 
 .menu > li > a:hover {
   color: #333333;
-  font-size: 28px;
+  text-decoration: underline;
 }
 
-.intro {
-  padding: 100px 200px 100px 0;
+.section {
+   padding: 100px 0;
+   overflow: hidden;
 }
 
-.intro > h1 {
-  font-size: 40px;
-  padding-bottom: 20px;
+   .block {
+      float: left;
+      width: 420px;
+      padding-right: 60px;
+   }
+
+      .block:last-child {
+         padding-right: 0;
+      }
+
+   .block > img {
+      width: 100%;
+   }
+
+.bg-grey {
+   background-color: #EFEFEF;
 }
 
-.intro > p {
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-.containter2 {
-  background-color: #EFEFEF;
-  width: 50%;
-}
-
-h2 {
-  font-size: 25px;
-  padding-bottom: 20px;
-}
-
-.containter2 > p {
-  font-size: 20px;
-  line-height: 1.5;
-  float: left;
-  background-color: #EFEFEF;
-}
-
-.photo1 {
-  float: right;
-  background: url("../images/sandigephoto1.jpg");
+.bg-blue {
+   background-color: #D8EAFF;
 }
