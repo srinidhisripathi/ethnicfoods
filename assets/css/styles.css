@@ -40,3 +40,17 @@ body {
   color: #333333;
   font-size: 28px;
 }
+
+.intro {
+  padding: 100px 200px 100px 0;
+}
+
+.intro > h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.intro > p {
+  font-size: 20px;
+  line-height: 1.5;
+}
