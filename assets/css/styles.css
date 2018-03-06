@@ -4,7 +4,8 @@ body {
 
 .container {
   width: 900px;
-  margin: 0 auto;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .header {
@@ -53,4 +54,26 @@ body {
 .intro > p {
   font-size: 20px;
   line-height: 1.5;
+}
+
+.containter2 {
+  background-color: #EFEFEF;
+  width: 50%;
+}
+
+h2 {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.containter2 > p {
+  font-size: 20px;
+  line-height: 1.5;
+  float: left;
+  background-color: #EFEFEF;
+}
+
+.photo1 {
+  float: right;
+  background: url("../images/sandigephoto1.jpg");
 }
